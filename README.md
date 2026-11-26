@@ -3,7 +3,8 @@
 Проект мобильной 3D-игры для прогулки по статичному городу от третьего лица.
 
 ## Сборка APK
-1. Добавьте в GitHub Secrets репозитория секрет `UNITY_LICENSE` с лицензией Unity Personal/Pro в формате, который поддерживает GameCI.
+1. Откройте Settings → Secrets and variables → Actions → New repository secret.
+2. Создайте секрет `UNITY_LICENSE` с Unity license-файлом в формате GameCI. Не публикуйте лицензию в чате или обычных файлах репозитория.
 2. Откройте Actions → Build Android APK → Run workflow.
 3. После успешной сборки скачайте артефакт `MiamiFreeRoam-Android-APK`.
 
